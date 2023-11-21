@@ -333,7 +333,7 @@ We've also integrated LeakCanary into our project—a tool that detects and capt
 
 The screenshot illustrates the memory footprint during a specific user flow within the app. Initially, upon app launch, the memory usage remains stable. However, when initiating a location search, there's a noticeable spike in memory usage, peaking at approximately **293MB**, followed by swift garbage collection, after which the app functions smoothly again.
 
-You can access the associated .trace file via [this link](https://chat.openai.com/c/link), which can be loaded into Android Studio for analysis or visualized using **Perfetto**. This file provides detailed insights into the memory behavior during this user flow, aiding in further analysis and optimization.
+You can access the memmory file **memory-20231121T031409.heapprofd** file, which can be loaded into Android Studio for analysis or visualized using **Perfetto**. This file provides detailed insights into the memory behavior during this user flow, aiding in further analysis and optimization.
 
 <p align="center">  
 <img src="https://user-images.githubusercontent.com/30040958/284396887-2b94adba-1b1a-4e5c-9b03-a602adba386d.png" alt="" style="width: 80%;"> </p>  
