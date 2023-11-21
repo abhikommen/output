@@ -259,13 +259,13 @@ The introduction of the `test` directory, even with a single test (`SearchViewMo
 
 In this performance inspection report, a thorough evaluation of the app's performance has been conducted. The assessment encompasses three distinct methodologies to comprehensively cover various aspects: passive testing, manual testing, and automated testing.
 
-This report presents an in-depth performance analysis conducted on the Realme device (RMX3471) running Android 13. The analysis focuses on passive testing methodologies, utilizing logs and system snapshots to assess various performance metrics, including processor and RAM states.
+This report presents an in-depth performance analysis conducted on the Xiaomi (22111317) running Android 13. The analysis focuses on passive testing methodologies, utilizing logs and system snapshots to assess various performance metrics, including processor and RAM states.
 
-This report provides a detailed analysis of the performance testing conducted on a Realme device (RMX3471) running Android 13.
+This report provides a detailed analysis of the performance testing conducted on a Xiaomi (22111317) running Android 13.
 
 ## Device Configuration:
 
-- **Device Model:** Realme (RMX3471)
+- **Device Model:** Xiaomi (22111317)
 - **Android Version:** 13
 
 ## Processor and RAM State Snapshot:
@@ -282,6 +282,12 @@ procs ------------memory------------ ----swap--- -----io---- ---system-- ----cpu
 - **IO:** Input/output metrics (bi, bo)
 - **System:** System-related metrics (in, cs)
 - **CPU:** CPU usage breakdown (us, sy, id, wa)
+
+We will be evaluating performance in three ways, outlined as follows:
+
+<p align="center">  
+  <img src="https://user-images.githubusercontent.com/30040958/284392308-cfc5c4da-0d52-42d0-ba93-6eeef08479bd.svg" alt="" width="400">  
+</p>  
 
 ## Passive Testing:
 
