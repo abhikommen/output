@@ -314,6 +314,8 @@ Passive testing involves the observation of an application's performance without
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/30040958/283680593-ee1dc9fc-1f2b-4690-a625-136eef72dae6.png" alt="" style="width: 80%;"> </p>
+
+
 ## Manual App Performance Review
 
 In the upcoming steps, we'll delve into a manual review of the app's performance. Once the specific area of your app to scrutinize has been determined, a variety of tools can be employed to precisely identify the ongoing processes.
@@ -393,6 +395,17 @@ You can delve into the specifics through various profiling methods:
 
 <p align="center">  
 <img src="https://user-images.githubusercontent.com/30040958/284401604-34aa198a-6a8b-47d3-9a15-c3c9da4996b9.png" alt="" style="width: 80%;"> </p>  
+
+
+## Automated Performance Testing
+Beyond manual inspection, we've implemented automated testing procedures to gather and consolidate performance data. These automated tests offer insights into the user experience, allowing us to detect potential regressions effectively.
+
+Our chosen tool for this purpose is the official Android BenchMark, which conducts automated tests directly on the device. It generates comprehensive reports detailing various performance metrics. By leveraging this tool, we can continuously monitor app performance, ensuring that it aligns with user expectations and swiftly identifying any regressions that may arise.
+
+<p align="center">  
+<img src="https://user-images.githubusercontent.com/30040958/284478671-17ecf93d-6a58-467b-b15d-be57ae076069.png" alt="" style="width: 80%;"> 
+</p> 
+
 
   
 ## Recommendations and Further Analysis:  
